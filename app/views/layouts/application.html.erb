@@ -19,7 +19,11 @@
 	    <div class="span12">
 	      <img src="assets/crowdtilt.png">
 	      <hr>
-	      <%= yield %>
+		<% if browser.mobile? %>
+		  <%= render 'partials/redirect' %>
+		<% else %>
+		<%= yield %>
+		<% end %>
 	    </div>
 	  </div>
 	</div>
