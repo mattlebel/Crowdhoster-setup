@@ -6,4 +6,8 @@
 
 <hr>
 
-<center><iframe width="300" height="240" src="http://www.youtube.com/embed/6VO4CK1__Ew" frameborder="0" allowfullscreen></iframe></center>
+<iframe class="pagination-centered" width="280" height="240" src="http://www.youtube.com/embed/6VO4CK1__Ew" frameborder="0" allowfullscreen></iframe>
+
+<script type="text/javascript">
+$(function(){var e=$("iframe[src^='http://www.youtube.com']"),t=$("body");e.each(function(){$(this).data("aspectRatio",this.height/this.width).removeAttr("height").removeAttr("width")});$(window).resize(function(){var n=t.width();e.each(function(){var e=$(this);e.width(n).height(n*e.data("aspectRatio"))})}).resize()})
+</script>
