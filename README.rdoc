@@ -1,1 +1,3 @@
 == Crowdhoster by Crowdtilt | Getting Started Guide
+
+This guide is deprecated. Please see Crowdhoster.com/setup.
